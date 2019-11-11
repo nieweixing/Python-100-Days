@@ -6,7 +6,7 @@ Author: 骆昊
 Date: 2018-02-27
 """
 
-str1 = 'hello, world!'
+str1 = 'Hello, world!'
 print('字符串的长度是:', len(str1))
 print('单词首字母大写: ', str1.title())
 print('字符串变大写: ', str1.upper())
