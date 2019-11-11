@@ -21,6 +21,7 @@ def main():
         print(scores['武则天'])
     print(scores.get('武则天'))
     print(scores.get('武则天', 60))
+    #Python 字典 popitem() 方法返回并删除字典中的最后一对键和值。
     print(scores.popitem())
     print(scores.popitem())
     print(scores.pop('骆昊', 100))
