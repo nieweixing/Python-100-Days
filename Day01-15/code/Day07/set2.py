@@ -18,12 +18,16 @@ def main():
     set2 = set(range(2, 11, 2))
     print(set2)
     set3 = set(range(1, 5))
+    #2个集合的交集
     print(set1 & set2)
     # print(set1.intersection(set2))
+    # 2个集合的并集
     print(set1 | set2)
     # print(set1.union(set2))
+    # 2个集合的差集
     print(set1 - set2)
     # print(set1.difference(set2))
+    # 2个集合的反交集
     print(set1 ^ set2)
     # print(set1.symmetric_difference(set2))
     print(set2 <= set1)

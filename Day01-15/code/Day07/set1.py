@@ -29,6 +29,8 @@ def main():
     print()
     # 将元组转换成集合
     set3 = set((1, 2, 3, 3, 2, 1))
+    print(set3)
+    #随机异常一个元素
     print(set3.pop())
     print(set3)
 

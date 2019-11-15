@@ -31,6 +31,7 @@ def main():
     person[1] = 25
     print(person)
     fruits_list = ['apple', 'banana', 'orange']
+    #tuple将列表转为元祖
     fruits_tuple = tuple(fruits_list)
     print(fruits_tuple)
     print(fruits_tuple[1])

@@ -21,14 +21,16 @@ def main():
     for fruit in fruits:
         print(fruit.title(), end=' ')
     print()
-    # 列表切片
+    # 列表切片，一般是取左不取右
     fruits2 = fruits[1:4]
     print(fruits2)
     # fruit3 = fruits  # 没有复制列表只创建了新的引用
+    #复制整个列表
     fruits3 = fruits[:]
     print(fruits3)
     fruits4 = fruits[-3:-1]
     print(fruits4)
+    #表示列表反过来
     fruits5 = fruits[::-1]
     print(fruits5)
 
