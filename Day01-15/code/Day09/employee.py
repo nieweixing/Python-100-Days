@@ -31,9 +31,9 @@ class Employee(object, metaclass=ABCMeta):
 class Manager(Employee):
 
     # 想一想: 如果不定义构造方法会怎么样
-    def __init__(self, name):
+    #def __init__(self, name):
         # 想一想: 如果不调用父类构造器会怎么样
-        super().__init__(name)
+    #    super().__init__(name)
 
     def get_salary(self):
         return 12000
@@ -72,4 +72,4 @@ if __name__ == '__main__':
         elif isinstance(emp, Salesman):
             sales = float(input('请输入%s本月销售额: ' % emp.name))
             emp.set_sales(sales)
-        print('%s本月月薪为: ￥%.2f元' % (emp.name, emp.get_salary()))
+        print('%s本月月薪为: ￥%.7f元' % (emp.name, emp.get_salary()))

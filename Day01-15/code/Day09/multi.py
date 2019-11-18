@@ -45,9 +45,9 @@ class Musician(object):
         print('%s在弹钢琴.' % self._name)
 
 
-# 试一试下面的代码看看有什么区别
-# class Son(Monk, Father, Musician):
-# class Son(Musician, Father, Monk):
+# 试一试下面的代码看看有什么区别,打印出来的顺序不一样，也就是调用父类方法的顺序不一样
+#class Son(Monk, Father, Musician):
+#class Son(Musician, Father, Monk):
 
 
 class Son(Father, Monk, Musician):

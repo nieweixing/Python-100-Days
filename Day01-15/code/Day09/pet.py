@@ -1,11 +1,12 @@
 from abc import ABCMeta, abstractmethod
 
-
+#此类为抽象类
 class Pet(object, metaclass=ABCMeta):
 
     def __init__(self, nickname):
         self._nickname = nickname
 
+    #此方法为抽象方法
     @abstractmethod
     def make_voice(self):
         pass
