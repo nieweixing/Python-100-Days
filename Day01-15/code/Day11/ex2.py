@@ -15,3 +15,6 @@ while input_again:
         input_again = False
     except (ValueError, ZeroDivisionError) as msg:
         print(msg)
+
+aaa = "nihao"
+print(aaa)

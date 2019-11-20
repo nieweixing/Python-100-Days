@@ -8,7 +8,7 @@ Date: 2018-03-13
 
 import csv
 
-filename = 'example.csv'
+filename = 'C:\\Users\\12207\\Desktop\\example.csv'
 
 try:
     with open(filename) as f:

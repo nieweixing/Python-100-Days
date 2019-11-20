@@ -7,7 +7,10 @@ import pygame
 
 @unique
 class Color(Enum):
-    """颜色"""
+    """
+    颜色
+    RGB颜色对应表 https://tool.oschina.net/commons?type=3
+    """
 
     RED = (255, 0, 0)
     GREEN = (0, 255, 0)
