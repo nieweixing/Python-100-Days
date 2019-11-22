@@ -9,8 +9,9 @@ Date: 2018-03-19
 from io import StringIO
 
 
-def reverse_str1(str):
-    return str[::-1]
+def reverse_str1(str1):
+    # 创造一个与原字符串顺序相反的字符串
+    return str1[::-1]
 
 
 def reverse_str2(str):

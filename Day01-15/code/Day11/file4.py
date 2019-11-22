@@ -7,6 +7,7 @@ Date: 2018-03-13
 """
 import base64
 
+# rb读取二进制文件
 with open('mm.jpg', 'rb') as f:
     data = f.read()
     # print(type(data))
@@ -15,6 +16,7 @@ with open('mm.jpg', 'rb') as f:
     # 将图片处理成BASE-64编码
     print(base64.b64encode(data))
 
+# wb写入二进制文件
 with open('girl.jpg', 'wb') as f:
     f.write(data)
 print('写入完成!')

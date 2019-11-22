@@ -16,5 +16,3 @@ while input_again:
     except (ValueError, ZeroDivisionError) as msg:
         print(msg)
 
-aaa = "nihao"
-print(aaa)

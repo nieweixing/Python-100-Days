@@ -9,6 +9,7 @@ Date: 2018-03-13
 import json
 
 teacher_dict = {'name': '白元芳', 'age': 25, 'title': '讲师'}
+# json.dumps将字典转换为字符串，然后再写入
 json_str = json.dumps(teacher_dict)
 print(json_str)
 print(type(json_str))

@@ -18,7 +18,8 @@ def is_prime(n):
 
 
 # 试一试有什么不一样
-# with open('prime.txt', 'a') as f:
+# 文件操作的a属性，表示往文件存在则往里面追加
+#with open('prime.txt', 'a') as f:
 with open('prime.txt', 'w') as f:
     for num in range(2, 100):
         if is_prime(num):

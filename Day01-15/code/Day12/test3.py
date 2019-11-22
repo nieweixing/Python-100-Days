@@ -15,6 +15,7 @@ def main():
     m1 = re.match(r'^[0-9a-zA-Z_]{6,20}$', username)
     if not m1:
         print('请输入有效的用户名.')
+    # \d表示匹配数字0-9
     m2 = re.match(r'^[1-9]\d{4,11}$', qq)
     if not m2:
         print('请输入有效的QQ号.')

@@ -27,13 +27,17 @@ print(str[0:5].isalpha())
 print(str[5:8].isdecimal())
 
 list = ['床前明月光', '疑是地上霜', '举头望明月', '低头思故乡']
+# 序列中的元素（必须是str） 以指定的字符 连接生成一个新的字符串
 print('-'.join(list))
 sentence = 'You go your way I will go mine'
+
 words_list = sentence.split()
 print(words_list)
 email = '     jackfrued@126.com          '
 print(email)
+# Python strip() 方法用于移除字符串头尾指定的字符（默认为空格或换行符）或字符序列
 print(email.strip())
+# Python lstrip() 方法用于截掉字符串左边的空格或指定字符。
 print(email.lstrip())
 
 # 将文本放入系统剪切板中
