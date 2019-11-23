@@ -2,7 +2,7 @@
 定义和使用字典
 
 Version: 0.1
-Author: 骆昊
+Author: 聂
 Date: 2018-03-06
 """
 
